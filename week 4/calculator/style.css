@@ -1,0 +1,40 @@
+* {
+    background-color: gray;
+}
+form {
+    background-color: green;
+}
+#num1 {
+    background-color: white;
+}
+#num2 {
+    background-color: white;
+}
+#num3 {
+    background-color: white;
+}
+#num4 {
+    background-color: white;
+}
+#num5 {
+    background-color: white;
+}
+#num6 {
+    background-color: white;
+}
+#num7 {
+    background-color: white;
+}
+#num8 {
+    background-color: white;
+}
+.labels {
+    background-color: green;
+}
+.sections {
+    height: 200px;
+    width: 600px;
+}
+h1 {
+    background-color: red;
+}
