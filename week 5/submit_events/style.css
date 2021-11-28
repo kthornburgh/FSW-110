@@ -1,0 +1,48 @@
+#text-input1{
+    margin: 10px;
+    outline: black solid 2px;
+    height: 30px;
+    font-size: 15px;
+}
+#text-input2{
+    margin: 10px;
+    outline: black solid 2px;
+    height: 30px;
+    font-size: 15px;
+}
+#text-input3{
+    margin: 10px;
+    outline: black solid 2px;
+    height: 30px;
+    font-size: 15px;
+}
+#submit1 {
+    margin: 10px;
+    height: 35px;
+    width: 155px;
+    outline: black solid 2px;
+    background-color: green;
+    font-weight: bolder;
+}
+#submit2 {
+    margin: 10px;
+    height: 35px;
+    width: 155px;
+    outline: black solid 2px;
+    background-color: green;
+    font-weight: bolder;
+}
+#submit3 {
+    margin: 10px;
+    height: 35px;
+    width: 155px;
+    outline: black solid 2px;
+    background-color: green;
+    font-weight: bolder;
+}
+body {
+    background-color: gray;
+}
+div {
+    width: 250px;
+}
