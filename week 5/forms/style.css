@@ -1,0 +1,31 @@
+form {
+    width: 400px;
+}
+* {
+    margin: 10px;
+}
+body {
+    background-color: darkgray;
+}
+p {
+    font-size: 20px;
+}
+label {
+    font-size: 20px;
+}
+#no {
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+#age {
+    margin-bottom: 50px;
+}
+#select {
+    margin-bottom: 50px;
+}
+input[type='checkbox'] {
+    font-size: 100px;
+}
+#submit {
+    margin-top: 50px;
+}

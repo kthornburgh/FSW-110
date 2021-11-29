@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<form name='myForm' id='myForm'>
+        <p>Your info here:</p>
+		<input type="text" name='input' placeholder='First Name' required />
+        <input type="text" name='input' placeholder="Last Name" required />
+        <input type="number" id='age' name='input' placeholder='Age' required />
+        <p>Have you shopped with us before?</p>
+        Yes: <input type="radio" id='yes' name="decision" value="Yes" />
+        No: <input type='radio' id='no' name="decision" value="No" />
+        
+        <label for="recommend">How likely are you to recommend this product to a friend?:</label>
+            <select name="recommend" id="select">
+            <option value="">--Please choose an option--</option>
+            <option value="not likely">Not Likely</option>
+            <option value="somewhat likely">Somewhat Likely</option>
+            <option value="likely">Likely</option>
+            <option value="very likely">Very Likely</option>
+            <option value="definitely">Defintiely</option>
+            </select>
+        <p id='diet'>Do you have any dietary restrictions?</p>
+        Gluten free: <input type="checkbox" name='options' />
+        Keto: <input type="checkbox" name='options' />
+        Vegetarian: <input type="checkbox" name='options' />
+        Kosher: <input type="checkbox" name='options' />
+        <button type="submit" id='submit'>Submit</button>
+        
+
+ 	</form>
+
+
+
+	<script src="index.js"></script>
+</body>
+
+</html>
