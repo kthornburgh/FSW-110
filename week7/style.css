@@ -1,0 +1,39 @@
+* {
+    margin: 20px;
+    background-color: gray
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+header {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+}
+label {
+    grid-column: 1/2;
+}
+input {
+    grid-column: 3/5;
+    background-color: white;
+}
+h3 {
+    text-decoration: underline;
+}
+button {
+    background-color: white;
+}
+h1 {
+    font-size: 100px;
+}
+@media only screen and (max-width: 1366px){
+    h1 {
+        font-size: 75px;
+    }    
+}
+@media only screen and (max-width: 765px){
+    h1 {
+        font-size: 50px;
+    }
+}
